@@ -22,4 +22,6 @@ You can download the code and run it using Processing 3, you however need the Mi
 
 * If you want to see the final result, click [here](https://youtu.be/bH6qFdFs55E).
 
-© 2022 Boucelham Ahlem,boucah@hotmail.com
+© 2022 Boucelham Ahlem
+
+For contact : boucah@hotmail.com
