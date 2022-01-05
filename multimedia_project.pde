@@ -1,4 +1,8 @@
-// Project 02 
+
+//© 2022 Boucelham Ahlem <boucah@hotmail.com>
+
+//REF and Inspiration From 
+// Michael Pinn - http://www.openprocessing.org/sketch/157286
  
 // Note: You Will need the Minim Sound Library added to make this work.
  
