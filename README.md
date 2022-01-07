@@ -8,7 +8,7 @@
 
 * For this project, I started from the @Tee Kay [Swirl Music Player](https://pastebin.com/vTvvemtV).
 
-
+* I decided to add  some [Noise Wave](https://processing.org/examples/noisewave.html) based on the left and right channels of the Music stream. This was made possible thanks to the [Minim Sound Libary](http://code.compartmental.net/minim/audioplayer_class_audioplayer.html). The radius of the circles alternates between the left and right channels values for example.
 
 # How to run and view it ?
 

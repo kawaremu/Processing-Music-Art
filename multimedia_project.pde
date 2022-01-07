@@ -1,4 +1,8 @@
-// Project 02 
+
+//© 2022 Boucelham Ahlem <boucah@hotmail.com>
+
+//REF and Inspiration From 
+// Michael Pinn - http://www.openprocessing.org/sketch/157286
  
 // Note: You Will need the Minim Sound Library added to make this work.
  
@@ -13,8 +17,9 @@ VideoExport videoExport;
 Minim minim;
 AudioPlayer mySound;
  
+ // 2nd dimension of perlin noise
+ float yoff = 0.0;   
  
- float yoff = 0.0;        // 2nd dimension of perlin noise
  boolean recording = false;
  
 
@@ -67,7 +72,7 @@ void draw () {
     
 
     //Will generate many rectangles around the main circle
-  fill ( #FFBDA0, 100); //saumon
+  fill ( #FFBDA0, 70); //saumon
   rect(x3, y3, mySound.left.get(i)*20, mySound.left.get(i)*10);
  
  
@@ -90,13 +95,15 @@ void draw () {
      if (mySound.left.get(i)*1000 > 0) fill (#00896F, 5);
    }
 
-     // Set the vertex
+    // Set the vertex
     vertex(x3, y_noise); 
+    
+    
     // Increment x dimension for noise
     xoff += 0.05;
-    
-    xoff += 0.05;
     yoff += 0.08;
+    
+    
     endShape(CLOSE);
   
   }
@@ -127,13 +134,4 @@ void keyPressed()
   {
     mySound.play();
   }
-}
-
-void rec(){
-  if (frameCount == 1){
-    videoExport = new VideoExport(this,"project/movie.mp4");
-    videoExport.setFrameRate(60);
-    videoExport.startMovie();
-}
-    videoExport.saveFrame();
 }
