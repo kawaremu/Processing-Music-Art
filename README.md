@@ -20,7 +20,11 @@ You can download the code and run it using Processing 3, you however need the Mi
 * Processing 3 Download ► https://processing.org/download/
 
 
-* If you want to see the final result, click [here](https://youtu.be/bH6qFdFs55E).
+# Result
+
+* If you want to see the final result, click on the image bellow.
+
+[<img src="preview.jpg" />](https://youtu.be/bH6qFdFs55E)
 
 © 2022 Boucelham Ahlem
 
