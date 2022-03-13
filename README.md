@@ -1,5 +1,6 @@
-[![made-with-Processing](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Processing_3_logo.png/600px-Processing_3_logo.png)](https://processing.org/)
+<!-- [![made-with-Processing](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Processing_3_logo.png/600px-Processing_3_logo.png)](https://processing.org/) -->
 
+<img align="left" width="100" height="100" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Processing_3_logo.png/600px-Processing_3_logo.png" href="https://processing.org/">
 
 # What is generative Art ?
 * Generative art refers to art that in whole or in part has been created with the use of an autonomous system. An autonomous system in this context is generally one that is non-human and can independently determine features of an artwork that would otherwise require decisions made directly by the artist.
